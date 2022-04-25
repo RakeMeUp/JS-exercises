@@ -1,0 +1,20 @@
+{
+  "name": "jest-test",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest --watchAll --verbose"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "jest": "^27.5.1"
+  },
+  "type": "module"
+}
