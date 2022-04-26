@@ -56,8 +56,10 @@ function currying(fn){
     }
 }
 
+
+
 module.exports["nestedScope"] = nestedScope;
 module.exports["closures1"] = closures1;
 module.exports["closures2"] = closures2;
-module.exports["currying"] = currying;
 module.exports["sum"] = sum;
+module.exports["currying"] = currying;
